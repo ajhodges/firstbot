@@ -1,3 +1,26 @@
-firstbot - a reddit crawler.
+firstbot
+A Reddit Crawler
+By: Adam Hodges
+------------------------
+firstbot was an idea that I came up with while browsing reddit.com in my free time.
+Authors submit "rage comics" to a particular section of reddit, and other users rate them.
+Many first timers add a "first tag", [first], to the title of their comic as a plea for mercy and a higher rating.
 
-First commit - UGLY beta code. Please don't judge me!
+I have always wondered how many people tag their comics as [first] even after their first comic. No one ever checks.
+
+While it's doubtful that someone would actually get a measurably higher rating from the abuse of a [first] tag, I decided it would make a cool project.
+
+firstbot is a reddit crawler that identifies and reprimands abusers of the [first] tag in rage comic submissions.
+
+Execution
+------------------------
+To run firstbot:
+    python firstbot.py
+
+Dependencies
+------------------------
+firstbot was written using Python 2.7.2 and SQLite 3.7.7.
+
+Thanks
+------------------------
+I would like to give the author of another reddit bot, originalfinder, a shoutout for inspiring me!
