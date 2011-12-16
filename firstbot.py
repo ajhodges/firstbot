@@ -16,7 +16,7 @@ this is a list of inclusion terms and exclusion terms to further filter the comi
 these can be tweaked in an attempt to eliminate false positives.
 '''
 inclusionterms=['[first]','(first)','first rage','first comic', 'first post']
-exclusionterms=['[fixed]', '(fixed)', 'her first', 'his first', '\'s first', 'their first','after first', 'submitted my first']
+exclusionterms=['[fixed]', '(fixed)', 'her first', 'his first', '\'s first', 'their first','after first', 'submitted my first', 'after submitting']
 
 #delay between general requests to reddit
 CRAWLER_DELAY=4
